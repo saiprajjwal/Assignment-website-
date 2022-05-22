@@ -2,28 +2,17 @@ body{
   font-family: Arial;
   padding:0;
   margin:0;
-  background-color:white;
-}
-
-.container{
-  width:80%;
-  margin:auto;
-  overflow:hidden;
-}
-
-ul{
-  margin:20px;
-  padding:20px;
+  background-color:#2A4059;
 }
 
 header{
- 
-  
+   
   background:#2A4059;
   color:white;
   width: 100%;
-  height: fit-content;
- 
+  border-bottom: white solid 1px;
+  padding: 20px;
+  
 }
 
 header a{
@@ -35,7 +24,7 @@ header a{
 header li{
   float:left;
   display:inline;
-  padding: 0 0px 0 50px;
+  padding: 0 10px 0 50px;
 }
 
 header nav{
@@ -43,10 +32,25 @@ header nav{
   margin-top:10px;
 }
 
+.container{
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+  
+}
 
-#portfolio{
-  height: 80px;
-  background:#2A4059;
+.container2{
+  text-align: center;
+  margin:auto;
+  overflow:hidden;
+  width: 80%;
+}
+
+.container3{
+  text-align: center;
+  margin:auto;
+  overflow:hidden;
+  width: 80%;
 }
 
 
@@ -54,45 +58,55 @@ header nav{
   float:left;
   text-align: center;
   width:30%;
-  padding:10px;
+  padding: 15px;
+  background-color: white;
 }
 
 #boxes .box-img img{
-  width:123px;
+  float: left;
+  width:120px;
   
+
 }
 
 h1{
-  color:white;
-  font-size: 80px;
-  
+ font-size: 80px;  
 }
 
 span{
   color:#e8491d;
+  
 }
 
 h2{
-  color: #e8491d;
+  color:#e8491d;
   font-size: 50px;
   text-align: center; 
+  background-color: white;
+  padding: 0px;
+
 }
+ p3{
+   color: white;
+ }
 
 p{
-   text-align: center;
+   color:#2A4059;
+   font-size: ;
  }
 
 h3{
   color: white;
-  text-align: center;
   font-size: 30px;
 }
 
 footer{
+  color: white;
   padding:20px;
   margin-top:20px;
-  color:#ffffff;
   background-color:#e8491d;
   text-align: center;
-  height: 50x;
+  height: 300px;
 }
+
+
