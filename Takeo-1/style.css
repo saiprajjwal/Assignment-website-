@@ -5,7 +5,6 @@ body{
   background-color:white;
 }
 
-
 .container{
   width:80%;
   margin:auto;
@@ -16,7 +15,6 @@ ul{
   margin:20px;
   padding:20px;
 }
-
 
 header{
  
@@ -39,11 +37,6 @@ header li{
   display:inline;
   padding: 0 0px 0 50px;
 }
-
-/* header #brand{
-  float:left;
-} */
-
 
 header nav{
   float:right;
@@ -69,16 +62,6 @@ header nav{
   
 }
 
-footer{
-  padding:20px;
-  margin-top:20px;
-  color:#ffffff;
-  background-color:#e8491d;
-  text-align: center;
-}
-
- 
-
 h1{
   color:white;
   font-size: 80px;
@@ -88,11 +71,11 @@ h1{
 span{
   color:#e8491d;
 }
+
 h2{
   color: #e8491d;
   font-size: 50px;
-  text-align: center;
-  
+  text-align: center; 
 }
 
 h3{
@@ -101,14 +84,11 @@ h3{
   font-size: 30px;
 }
 
-h4{
-  color:#2A4059;
-  font-size: 18px;
-}
-
-header a home{
-  color:white;
-  text-decoration:none;
-  text-transform: uppercase;
-  font-size:16px;
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+  height: 50x;
 }
