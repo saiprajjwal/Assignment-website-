@@ -1,0 +1,114 @@
+body{
+  font-family: Arial;
+  padding:0;
+  margin:0;
+  background-color:white;
+}
+
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:20px;
+  padding:20px;
+}
+
+
+header{
+ 
+  
+  background:#2A4059;
+  color:white;
+  width: 100%;
+  height: fit-content;
+ 
+}
+
+header a{
+  color:#e8491d;
+  text-decoration:none;
+  font-size:20px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 0px 0 50px;
+}
+
+/* header #brand{
+  float:left;
+} */
+
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+
+#portfolio{
+  height: 80px;
+  background:#2A4059;
+}
+
+
+#boxes .box-img{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box-img img{
+  width:121px;
+  
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
+
+ 
+
+h1{
+  color:white;
+  font-size: 80px;
+  
+}
+
+span{
+  color:#e8491d;
+}
+h2{
+  color: #e8491d;
+  font-size: 50px;
+  text-align: center;
+  
+}
+
+h3{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+h4{
+  color:#2A4059;
+  font-size: 18px;
+}
+
+header a home{
+  color:white;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
