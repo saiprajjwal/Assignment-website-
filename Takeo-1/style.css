@@ -1,17 +1,12 @@
 body{
   font-family: Arial;
-  padding:0;
-  margin:0;
   background-color:#2A4059;
 }
 
 header{
-   
-  background:#2A4059;
   color:white;
-  width: 100%;
   border-bottom: white solid 1px;
-  padding: 20px;
+  padding-bottom: 20px;
   
 }
 
@@ -22,15 +17,23 @@ header a{
   
 }
 
+h1{
+  font-size: 80px;  
+ }
+ 
+ span{
+   color:#e8491d;
+   
+ }
+
 header li{
-  float:left;
+  /* float:left; */
   display:inline;
   padding: 0 10px 0 50px;
 }
 
 header nav{
   float:right;
-  margin-top:10px;
 }
 
 
@@ -48,38 +51,6 @@ header nav{
   width: 80%;
 }
 
-.container3{
-  text-align: center;
-  margin:auto;
-  overflow:hidden;
-  width: 80%;
-}
-
-
-#boxes .box-img{
-  float:left;
-  text-align: center;
-  width:30%;
-  padding: 15px;
-  background-color: white;
-}
-
-#boxes .box-img img{
-  float: left;
-  width:120px;
-  
-
-}
-
-h1{
- font-size: 80px;  
-}
-
-span{
-  color:#e8491d;
-  
-}
-
 h2{
   color:#e8491d;
   font-size: 50px;
@@ -92,14 +63,12 @@ h2{
    color: white;
  }
 
-p{
-   color:#2A4059;
-   font-size: ;
- }
 
 h3{
   color: white;
   font-size: 30px;
+  text-align: center;
+  height: 550px
 }
 
 footer{
@@ -109,6 +78,7 @@ footer{
   background-color:#e8491d;
   text-align: center;
   height: 300px;
+  width: 100%;
 }
 
 
