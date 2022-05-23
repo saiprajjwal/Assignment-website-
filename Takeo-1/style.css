@@ -5,7 +5,7 @@ body{
 
 header{
   color:white;
-  border-bottom: white solid 1px;
+  border-bottom: white solid 3px;
   padding-bottom: 20px;
   
 }
@@ -27,7 +27,6 @@ h1{
  }
 
 header li{
-  /* float:left; */
   display:inline;
   padding: 0 10px 0 50px;
 }
@@ -49,6 +48,7 @@ header nav{
   margin:auto;
   overflow:hidden;
   width: 80%;
+  
 }
 
 h2{
@@ -60,15 +60,19 @@ h2{
 
 }
  p3{
-   color: white;
+   color: wheat;
+  
  }
 
 
 h3{
-  color: white;
-  font-size: 30px;
+ 
+  color: #2A4059
+  font-size: 80px;
   text-align: center;
-  height: 550px
+  
+  
+  
 }
 
 footer{
@@ -81,4 +85,10 @@ footer{
   width: 100%;
 }
 
+#portfolio {
+  font-size: 30px;
+  color:#2A4059;
+  background-color: white;
+  height: 550px
 
+}
